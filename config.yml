@@ -1,0 +1,13 @@
+INDIGO_WELCOME_MESSAGE: "The place for all your online learning"
+INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
+
+# Footer links are dictionaries with a "title" and "url"
+# To remove all links, write:
+# INDIGO_FOOTER_NAV_LINKS: []
+# INDIGO_FOOTER_LEGAL_LINKS: []
+INDIGO_FOOTER_NAV_LINKS:
+  - title: "About"
+    url: "/about"
+INDIGO_FOOTER_LEGAL_LINKS:
+    - title: "Terms of service"
+      url: "/tos"
