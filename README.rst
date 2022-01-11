@@ -21,7 +21,7 @@ Clone the theme repository::
 
 Render your theme::
 
-    tutor config render --extra-config ./indigo/config.yml ./indigo/theme "$(tutor config printroot)/env/build/openedx/themes/indigo"
+    tutor config render --extra-config /Users/YOUR_USERNAME/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/config.yml /Users/YOUR_USERNAME/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/theme "$(tutor config printroot)/env/build/openedx/themes/Shabazz"
 
 Rebuild the Openedx docker image::
 
