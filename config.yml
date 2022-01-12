@@ -8,6 +8,8 @@ INDIGO_PRIMARY_COLOR: "#5D0E81" # cool blue
 INDIGO_FOOTER_NAV_LINKS:
   - title: "About"
     url: "/about"
+  - title: "Contact Us"
+    url: "/contact-us"
 INDIGO_FOOTER_LEGAL_LINKS:
     - title: "Terms of service"
       url: "/tos"
