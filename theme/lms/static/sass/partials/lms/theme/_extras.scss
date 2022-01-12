@@ -34,6 +34,7 @@ body, body.view-profile {
 
 %t-title {
   font-family: $font-family-title;
+  width: 100%;
 }
 
 h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
@@ -41,6 +42,7 @@ h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
 }
 
 #content.content-wrapper {
+  padding: 0 0px 10px;
   @include media-breakpoint-up(lg) {
     padding-top: $content-padding-top;
     padding-bottom: $content-padding-bottom;
@@ -89,10 +91,15 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 
 .home > header .title {
   box-shadow: none;
+  width: 100%;
+  margin-left: 0%;
+  padding: 20px 0px;
 }
 
 .home > header .outer-wrapper {
   padding: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .home > header .title > .heading-group {
@@ -199,6 +206,10 @@ nav.wrapper-preview-menu {
 }
 .wrapper-account-settings .wrapper-header .account-nav button.active {
   border-bottom-color: $primary;
+}
+.outer-wrapper {
+  width: 100%;
+  max-width: 100%;
 }
 
 /////////////////// Footer
