@@ -1,7 +1,7 @@
 Shabazz, an empowering theme
 ======================================
 
-Shabazz is a bold and custom theme for EmpowrX `Open edX <https://open.edx.org>`__.
+Shabazz is a bold and custom theme for EmpowrX `EmpowrX <https://giza.empowrco.org>`__.
 
 .. image:: ./screenshots/01-landing-page.png
     :alt: Platform landing page
