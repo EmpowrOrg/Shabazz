@@ -5,6 +5,44 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
+.course-discover-card {
+  border-radius: 8px;
+  margin: 24px;
+  height: 260px;
+  width: 260px;
+  box-shadow: 0 0px 4px 0 #C3C3C3;
+}
+
+.course-discover-card-hero {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 260px;
+  overflow: hidden;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 100px;
+}
+
+.course-discover-card-title {
+  background: #FFD700;
+  border-radius: 16px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: table;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-discover-card-description {
+  text-align: center;
+  color: #757575;
+  padding: 8px;
+}
+
 .code-editor-img-ctr {
   margin-top: 24px;
   margin-bottom: 24px;
