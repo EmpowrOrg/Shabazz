@@ -5,6 +5,34 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
+.course-search {
+  display: none;
+}
+
+
+.course-discover-card {
+  box-shadow: 0 0 4px 0 #000000;
+  border-radius: 16px;
+}
+
+.course-discover-card-title {
+  padding: 8px;
+  text-align: center;
+  color: #424242;
+}
+
+.course-discover-card-hero {
+  border-radius: 16px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.course-image {
+  object-fit: fill;
+  object-position: top;
+  border-radius: 16px;
+}
+
 .code-editor-img-ctr {
   margin-top: 24px;
   margin-bottom: 24px;
