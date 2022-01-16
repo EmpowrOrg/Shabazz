@@ -6,22 +6,20 @@ from django.urls import reverse
 from six import text_type
 %>
 <%page args="course" expression_filter="h"/>
-<article class="course" id="${course.id}" role="region" aria-label="${course.display_name_with_default}">
-
-
-
+<article class="course-discover-card" id="${course.id}" role="region" aria-label="${course.display_name_with_default}">
     <a href="${reverse('about_course', args=[text_type(course.id)])}">
 
-        <div class="course-discover-card col col-xl-3">
+        <div>
             <header class="course-image">
                 <div class="cover-image">
-                    <img src="${course.course_image_url}" alt="${course.display_name_with_default} ${course.display_number_with_default}" class="course-discover-card-hero"/>
+                    <img src="${course.course_image_url}"
+                         alt="${course.display_name_with_default} ${course.display_number_with_default}"
+                         class="course-discover-card-hero"/>
                 </div>
             </header>
 
             <div class=" course-info course-card-info">
                 <h4 class="course-discover-card-title">${course.display_name_with_default}</h4>
-                <p class="course-discover-card-description">Apple's App Store is the most profitable mobile platform. Learn how to create apps that impact the country.</p>
             </div>
         </div>
     </a>
