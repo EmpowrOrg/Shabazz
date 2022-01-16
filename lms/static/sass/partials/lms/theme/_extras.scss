@@ -5,20 +5,29 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
+.course-card-info {
+  padding-bottom: 8px;
+}
+
 .course-search {
   display: none;
 }
 
-
 .course-discover-card {
-  box-shadow: 0 0 4px 0 #000000;
+  box-shadow: 0 0 4px 0 #757575;
   border-radius: 16px;
 }
 
 .course-discover-card-title {
-  padding: 8px;
+  padding: 4px 8px;
   text-align: center;
   color: #424242;
+  background: #FFD700;
+  border-radius: 16px;
+  display: table;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-left: auto;
 }
 
 .course-discover-card-hero {
