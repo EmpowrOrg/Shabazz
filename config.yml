@@ -9,7 +9,9 @@ INDIGO_FOOTER_NAV_LINKS:
   - title: "About"
     url: "/about"
   - title: "Contact Us"
-    url: "/contact-us"
+    url: "https://www.empowrco.org/contact-us"
+  - title: "Donate"
+    url: "https://www.empowrco.org/donate"
 INDIGO_FOOTER_LEGAL_LINKS:
-    - title: "Terms of service"
-      url: "/tos"
+  - title: "Terms of service"
+    url: "/tos"
