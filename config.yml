@@ -7,7 +7,7 @@ INDIGO_PRIMARY_COLOR: "#5D0E81" # cool blue
 # INDIGO_FOOTER_LEGAL_LINKS: []
 INDIGO_FOOTER_NAV_LINKS:
   - title: "About"
-    url: "/about"
+    url: "https://www.empowrco.org/our-vision"
   - title: "Contact Us"
     url: "https://www.empowrco.org/contact-us"
   - title: "Donate"
