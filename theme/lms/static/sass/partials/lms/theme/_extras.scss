@@ -5,6 +5,19 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
+.dashboard .main-container .my-courses .listing-courses .course-item .course-container {
+  border-radius: 16px;
+}
+
+.dashboard .main-container .my-courses .course .details .wrapper-course-image .cover .course-image, .dashboard .main-container .my-courses .course .details .wrapper-course-image a.fade-cover .course-image {
+  border-radius: 16px;
+  max-height: 146px;
+}
+
+.user-image-frame {
+  border-radius: 50%;
+}
+
 .course-card-info {
   padding-bottom: 8px;
 }
