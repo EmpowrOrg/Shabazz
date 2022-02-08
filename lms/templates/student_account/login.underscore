@@ -85,6 +85,6 @@
         </form>
     </div>
       <div class="col-12 col-md-6 gx-5 gy-5" style="display: flex; justify-content:center">
-        <img class="signIn-img" src="https://via.placeholder.com/500x500">
+        <img class="signIn-img" src="https://d2l03dhf2zcc6i.cloudfront.net/images/login.png">
     </div>
 </div>
