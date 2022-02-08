@@ -5,6 +5,15 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
+.home>header .title>.heading-group p {
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.dashboard .main-container {
+  padding: 8px;
+}
+
 .dashboard .main-container .my-courses .listing-courses .course-item .course-container {
   border-radius: 16px;
 }
@@ -27,24 +36,27 @@ $footer-height: 125.0px;
 }
 
 .course-discover-card {
-  box-shadow: 0 0 4px 0 #757575;
+  box-shadow: none;
+  border-style: solid;
   border-radius: 16px;
+  border-width: 1px;
+  border-color: #e7e7e7;
 }
 
 .course-discover-card-title {
   padding: 4px 8px;
   text-align: center;
-  color: #424242;
-  background: #FFD700;
+  color: #5d0e81;
   border-radius: 16px;
   display: table;
   margin-right: auto;
   margin-top: 8px;
   margin-left: auto;
+  font-weight: 500;
 }
 
 .course-discover-card-hero {
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   width: 100%;
   object-fit: cover;
 }
@@ -68,6 +80,7 @@ $footer-height: 125.0px;
   color: white;
   margin-top: 24px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .box-highlight-body {
