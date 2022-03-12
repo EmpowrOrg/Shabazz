@@ -247,13 +247,12 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 #register > div > div.required-fields > div.form-field.password-password > label > span.label-text,
 #register > div > div.form-field.checkbox-optional_fields_toggle > label > span,
 #register > div > div.form-field.checkbox-terms_of_service > label > span.label-text,
-#register-form > div > div:nth-child(1) > div > div:nth-child(2) > div.js-form-feedback > div
+#register-form > div > div:nth-child(1) > div > div:nth-child(2) > div.js-form-feedback > div,
 #login-form > div > div:nth-child(1) > div.js-form-feedback > div,
 #register-form > div > div:nth-child(1) > div.js-form-feedback > div > h4,
 #register-form > div > div:nth-child(1) > div.js-form-feedback > div > ul,
 #login-form > div > div:nth-child(1) > div.js-form-feedback > div > h4,
-#login-form > div > div:nth-child(1) > div.js-form-feedback > div > ul
-{
+#login-form > div > div:nth-child(1) > div.js-form-feedback > div > ul{
   font-style: normal;
   font-family: $font-family-title;
 }
