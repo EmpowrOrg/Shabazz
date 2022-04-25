@@ -1,0 +1,84 @@
+
+
+body{
+    font-family: Roboto;
+}
+
+.topnav-signin{
+    margin-right: 20px;
+}
+
+.text-primary{
+    color: #5c0e81 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Archivo Black;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.home-heroarea h1{
+    font-size: 48px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5c0e81;
+    border-color: #5c0e81;
+}
+
+.btn-primary:hover{
+    background-color: #7730b0;
+    border-color: #7730b0;
+}
+
+.bg-primary {
+    background-color: #5c0e81 !important;
+}
+
+.bg-primary-400 {
+    background-color: #894ea5 !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #5c0e81;
+}
+
+.bg-primary-100 {
+    background-color: #eeeeee !important;
+}
+
+.btn-primary-100 {
+    color: black;
+    background-color: white;
+    border: 2px solid #5c0e81;
+}
+
+.btn-primary-100:hover {
+    background-color: #fdfdfd;
+}
+
+.text-primary-400 {
+    color: black !important;
+}
+
+.border-primary {
+    border-color: #5c0e81 !important;
+}
+
+.footer-logo{
+    max-width: 150px;
+}
+
+.margin-zeroauto{
+    margin: 0 auto !important;
+}
+
+p a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #5c0e81;
+}
