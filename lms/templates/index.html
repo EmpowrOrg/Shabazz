@@ -11,8 +11,8 @@ from openedx.core.djangolib.markup import HTML, Text
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" rel="stylesheet">
 <link href="https://unpkg.com/swiper@6.4.9/swiper-bundle.min.css" rel="stylesheet">
-<link href="${static.url('images/styles.css')}" rel="stylesheet">
-<link href="${static.url('images/custom.css')}" rel="stylesheet">
+<link href="https://d2l03dhf2zcc6i.cloudfront.net/css/style.css" rel="stylesheet">
+<link href="https://d2l03dhf2zcc6i.cloudfront.net/css/custom.css" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,6 @@ from openedx.core.djangolib.markup import HTML, Text
       rel="stylesheet">
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
-        <%include file="${courses_list}" />
         <header>
             <section class="py-25px pt-md-35px pb-md-60px py-lg-60px">
                 <div class="container">
@@ -95,6 +94,85 @@ from openedx.core.djangolib.markup import HTML, Text
                     </div><!-- end row -->
                 </div><!-- end container-lg -->
             </section>
+            <section class="bg-white py-25px py-md-60px">
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-10">
+                                    <h2 class="mb-3">How we support you</h2>
+                                    <p>Here at Empowr Co, we want to make sure all our students are set up to succeed which is why we ensure anyone accepted on the program has access to necessary equipment/tools. All you have to do is show up and code hard.</p>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                            <figure class="mb-0 mt-3 rounded overlay gradient-primary mb-30px mb-lg-0">
+                                <img class="img-fluid" src="${static.url('images/girl_learning.jpeg')}" alt="">
+                                <a class="position-absolute top-50 start-50 translate-middle" data-fancybox="course" href="https://www.youtube.com/watch?v=OrxmtDw4pVI" style="z-index: 1">
+                                    <img src="${static.url('images/place-circle.svg')}" alt="" />
+                                </a>
+                            </figure>
+                        </div><!-- end col -->
+
+                        <div class="col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="card mb-4">
+                                        <div class="card-body py-35px bg-primary rounded">
+                                            <div class="card-icon mb-25px position-relative">
+                      <span class="d-inline-block position-relative">
+                        <i class="text-white display-6" data-feather="cpu" stroke-width="1"></i>
+                      </span>
+                                                <span class="icon-bg bg-primary-400 d-inline-block"></span>
+                                            </div><!-- end card-icon -->
+                                            <h6 class="text-white mb-10px">Free Laptop</h6>
+                                            <p class="fs-7 text-white mb-0">Yes. We provide a laptop for you to use during the program AND it's yours to keep when you graduate</p>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end card -->
+                                </div><!-- end col -->
+
+                                <div class="col-12 col-md-6">
+                                    <div class="card mb-4 shadow">
+                                        <div class="card-body py-35px rounded">
+                                            <div class="card-icon mb-25px position-relative">
+                      <span class="d-inline-block position-relative">
+                        <i class="text-dark display-6" data-feather="headphones" stroke-width="1"></i>
+                      </span>
+                                                <span class="icon-bg bg-primary-100 d-inline-block"></span>
+                                            </div><!-- end card-icon -->
+                                            <h6 class="text-dark mb-10px">Headphones</h6>
+                                            <p class="fs-7 mb-0">Be able to watch classes and participate in discussions in any environment</p>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end card -->
+                                </div><!-- end col -->
+
+                                <div class="col-12 col-md-6">
+                                    <div class="card shadow">
+                                        <div class="card-body py-35px rounded">
+                                            <div class="card-icon mb-25px position-relative">
+                      <span class="d-inline-block position-relative">
+                        <i class="text-dark display-6" data-feather="globe" stroke-width="1"></i>
+                      </span>
+                                                <span class="icon-bg bg-primary-100 d-inline-block"></span>
+                                            </div><!-- end card-icon -->
+                                            <h6 class="text-dark mb-10px">Internet Grant</h6>
+                                            <p class="fs-7 mb-0">Let us help you take care of your internet bills, so you can code 24/7</p>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end card -->
+                                </div><!-- end col -->
+
+                                <div class="col-12 col-md-6">
+                                    <div class="card shadow">
+                                        <div class="card-body py-35px rounded">
+                                            <div class="card-icon mb-25px position-relative"><span class="d-inline-block position-relative"><i class="text-dark display-6" data-feather="dollar-sign" stroke-width="1"></i></span><span class="icon-bg bg-primary-100 d-inline-block"></span></div>
+                                            <h6 class="text-dark mb-10px">Paid Internships</h6>
+                                            <p class="fs-7 mb-0">Get paid while building your portfolio with Empowr partners</p>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </section>
             <div class="outer-wrapper">
                 <div class="title">
                     <div class="heading-group">
@@ -104,18 +182,6 @@ from openedx.core.djangolib.markup import HTML, Text
                         <%include file="index_overlay.html" />
                         % endif
                     </div>
-                    % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
-                    <div class="course-search">
-                        <form method="get" action="/courses">
-                            <label><span class="sr">${_("Search for a course")}</span>
-                                <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
-                            </label>
-                            <button class="search-button" type="submit">
-                                <span class="icon fa fa-search" aria-hidden="true"></span><span class="sr">${_("Search")}</span>
-                            </button>
-                        </form>
-                    </div>
-                    % endif
 
                 </div>
 
