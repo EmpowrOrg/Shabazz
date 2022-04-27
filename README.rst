@@ -19,7 +19,7 @@ Clone the theme repository::
 
 Render your theme::
 
-    tutor config render --extra-config /Users/adriandevezin/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/config.yml /Users/adriandevezin/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/theme "$(tutor config printroot)/env/build/openedx/themes/Shabazz"
+    tutor config render --extra-config /Users/adevezin/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/config.yml /Users/adevezin/Library/Application\ Support/tutor/env/build/openedx/themes/Shabazz/theme "$(tutor config printroot)/env/build/openedx/themes/Shabazz"
 
 Rebuild the Openedx docker image::
 

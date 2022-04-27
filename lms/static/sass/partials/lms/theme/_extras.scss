@@ -5,7 +5,7 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.0px;
 
-.home > header .title > .heading-group p {
+.home>header .title>.heading-group p {
   margin-bottom: 0;
   text-transform: none;
 }
@@ -154,27 +154,27 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   }
 }
 
-#login, #register {
+#login, #register{
   font-family: $font-family-title;
   width: 65%;
   margin: 0 auto;
   color: #313131
 }
 
-.signIn-img {
+.signIn-img{
   max-width: 100%;
   box-shadow: -40px -30px #FFD700;
 }
 
-.register-img {
+.register-img{
   max-width: 100%;
   box-shadow: -40px -30px #7F4F00;
   max-height: 500px;
 }
 
 #login-email, #login-password, #register-name, #register-username, #register-email, #register-password {
-  border: none;
-  background: none;
+  border:none;
+  background:none;
   box-shadow: 0px 4px 4px rgba(92, 14, 129, 0.6);
   color: #313131;
   text-shadow: none;
@@ -184,13 +184,13 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   font-family: $font-family-title;
 }
 
-#login-form > div > div:nth-child(1) > h3, #register-form > div > div:nth-child(1) > h3 {
+#login-form > div > div:nth-child(1) > h3, #register-form > div > div:nth-child(1) > h3{
   margin-left: 50px;
 }
 
-#login > button, #register > div > button {
-  border: none;
-  background: none;
+#login > button, #register > div > button{
+  border:none;
+  background:none;
   box-shadow: 0px 4px 4px rgba(92, 14, 129, 0.6);
   color: #313131;
   text-shadow: none;
@@ -198,22 +198,22 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   text-align: center;
 }
 
-#login-form > div > div:nth-child(1) > div.toggle-form,
-#register-form > div > div:nth-child(1) > div.toggle-form {
+#login-form > div > div:nth-child(1) > div.toggle-form, 
+#register-form > div > div:nth-child(1) > div.toggle-form{
   font-weight: 600;
   margin: 5px 0px;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 
 
-#login > div.form-field.password-password, #login > div.form-field.email-email {
+#login > div.form-field.password-password, #login > div.form-field.email-email{
   display: flex;
   flex-direction: column;
 }
 
 
-#login > div.form-field.password-password > button {
+#login > div.form-field.password-password > button{
   background-image: none;
   border: none;
   color: #313131;
@@ -226,24 +226,24 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 }
 
 
-#login > div.form-field.email-email > label,
-#login > div.form-field.password-password > label,
-#register > div > div.required-fields > div.form-field.text-name > label,
+#login > div.form-field.email-email > label, 
+#login > div.form-field.password-password > label, 
+#register > div > div.required-fields > div.form-field.text-name > label, 
 #register > div > div.required-fields > div.form-field.text-username > label,
-#register > div > div.required-fields > div.form-field.email-email > label,
-#register > div > div.required-fields > div.form-field.password-password > label {
-
+#register > div > div.required-fields > div.form-field.email-email > label, 
+#register > div > div.required-fields > div.form-field.password-password > label { 
+ 
   width: 100%;
   text-align: left;
   font-family: $font-family-title;
   margin-top: 10px;
 }
 
-#login > div.form-field.email-email > label > span.label-text,
+#login > div.form-field.email-email > label > span.label-text, 
 #login > div.form-field.password-password > label > span.label-text,
-#register > div > div.required-fields > div.form-field.text-name > label > span.label-text,
+#register > div > div.required-fields > div.form-field.text-name > label > span.label-text, 
 #register > div > div.required-fields > div.form-field.text-username > label > span.label-text,
-#register > div > div.required-fields > div.form-field.email-email > label > span.label-text,
+#register > div > div.required-fields > div.form-field.email-email > label > span.label-text, 
 #register > div > div.required-fields > div.form-field.password-password > label > span.label-text,
 #register > div > div.form-field.checkbox-optional_fields_toggle > label > span,
 #register > div > div.form-field.checkbox-terms_of_service > label > span.label-text,
@@ -252,21 +252,21 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 #register-form > div > div:nth-child(1) > div.js-form-feedback > div > h4,
 #register-form > div > div:nth-child(1) > div.js-form-feedback > div > ul,
 #login-form > div > div:nth-child(1) > div.js-form-feedback > div > h4,
-#login-form > div > div:nth-child(1) > div.js-form-feedback > div > ul {
+#login-form > div > div:nth-child(1) > div.js-form-feedback > div > ul{
   font-style: normal;
   font-family: $font-family-title;
 }
 
-#register-terms_of_service-required-label {
+#register-terms_of_service-required-label{
   font-family: $font-family-title;
 }
 
-#register > div > div.form-field.checkbox-optional_fields_toggle, #register > div > div.form-field.checkbox-terms_of_service {
+#register > div > div.form-field.checkbox-optional_fields_toggle, #register > div > div.form-field.checkbox-terms_of_service{
   display: flex;
   margin-top: 10px
 }
 
-#toggle_optional_fields, #register-terms_of_service {
+#toggle_optional_fields, #register-terms_of_service{
   margin: 5px;
 }
 
@@ -275,14 +275,14 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 #login-form > div > div:nth-child(1) > div.js-form-feedback,
 #register-form > div > div:nth-child(1) > div.js-form-feedback,
 #register > div > div.form-field.checkbox-optional_fields_toggle > label,
-#register > div > div.form-field.checkbox-terms_of_service > label {
-  display: inline-block;
+#register > div > div.form-field.checkbox-terms_of_service > label{
+  display: inline-block; 
   text-align: left;
   color: #313131;
 }
 
 #login-form > div > div:nth-child(1) > div.js-form-feedback > div,
-#register-form > div > div:nth-child(1) > div.js-form-feedback > div {
+#register-form > div > div:nth-child(1) > div.js-form-feedback > div{
   margin-top: 10px;
 }
 
