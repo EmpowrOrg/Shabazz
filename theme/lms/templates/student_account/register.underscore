@@ -13,7 +13,7 @@
                         <div class="d-grid gap-3">
                             <input type="submit" class="btn btn-primary btn-lg" value="Create Account">
 							<p class="mt-30px mb-0">Already have an account?</p>
-                            <a href="javascript:void(0)" class="btn btn-outline-gray-200 btn-hover-shadow-gray-100 btn-hover-none text-gray-800">Login Here</a>
+                            <a href="/login" class="btn btn-outline-gray-200 btn-hover-shadow-gray-100 btn-hover-none text-gray-800">Login Here</a>
                         </div>
                     </form>
                 </div><!-- end col -->
