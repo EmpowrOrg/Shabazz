@@ -10,20 +10,6 @@
 
                     <%= context.fields /* xss-lint: disable=underscore-not-escaped */ %>
 
-						<div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-						  <label class="form-check-label" for="flexCheckDefault">
-						    Support education research by providing additional information
-						  </label>
-						</div>
-
-						<div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-						  <label class="form-check-label" for="flexCheckDefault">
-						    I agree to the EmpowrX <a href="#"><u>Terms of Service</u></a>
-						  </label>
-						</div>
-
                         <div class="d-grid gap-3">
                             <input type="submit" class="btn btn-primary btn-lg" value="Create Account">
 							<p class="mt-30px mb-0">Already have an account?</p>
