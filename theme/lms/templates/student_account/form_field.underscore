@@ -1,6 +1,6 @@
 {% raw %}
 <div class="form-field <%- type %>-<%- name %>">
-    <% if ( type !== 'checkbox' && type !== 'plaintext') { %>
+    <% if ( type !== 'checkbox' && type !== 'plaintext' && type !=='text' && type !== 'email' && type !== 'password') { %>
         <label for="<%- form %>-<%- name %>">
             <span class="label-text"><%- label %></span>
             <% if ( required && type !== 'hidden' ) { %>
@@ -107,7 +107,7 @@
                     data-errormsg-<%- type %>="<%- msg %>"
             <%  });
             } %>
-            <% if ( placeholder ) { %> placeholder="<%- placeholder %>"<% } %>
+            placeholder="<%- label %>"
             value="<%- defaultValue %>"
         />
         <% if ( type === 'checkbox' ) { %>
@@ -139,9 +139,6 @@
                 <span><a class="field-link" href="<%- loginIssueSupportLink %>"><%- gettext("Other sign-in issues") %></a></span>
             <% } %>
 
-        <% if ( isEnterpriseEnable ) { %>
-            <button type="button" class="enterprise-login field-link"><%- gettext("Sign in with your company or school") %></button>
-        <% } %>
     <% } %>
     <% if( form === 'password-reset' && name === 'email' ) { %>
         <a><%- gettext("Forgot Password") %></a>
