@@ -58,7 +58,7 @@
 
       
 
-        <button type="submit" class="action action-primary action-update js-login login-button btn btn-primary btn-lg">
+        <button type="submit" class="action action-primary action-update js-register register-button btn btn-primary btn-lg">
             <% if ( context.registerFormSubmitButtonText ) { %><%- context.registerFormSubmitButtonText %><% } else { %><%- gettext("Create Account") %><% } %>
         </button>
     </div>
