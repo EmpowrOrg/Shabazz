@@ -13,7 +13,9 @@ $footer-height: 125.0px;
   margin-bottom: 0;
   text-transform: none;
 }
-
+.dashboard{
+  padding: 25px;
+}
 .dashboard .main-container {
   padding: 8px;
 }
@@ -401,6 +403,9 @@ nav.wrapper-preview-menu {
   }
 
   header.course-profile .intro-inner-wrapper .intro .main-cta {
+    a{
+      display: flex
+    }
     span.register {
       @extend %t-copy-base;
       padding: 10px 0;
@@ -493,3 +498,8 @@ nav.wrapper-preview-menu {
     }
   }
 }
+
+.register-form .btn-primary:hover{
+    color: #4f006f  
+}
+  
